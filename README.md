@@ -1,1 +1,2 @@
-# SocialBlip
+# SocialBlip for BlipFoto
+
