@@ -21,6 +21,9 @@ class Engine:
         
 
     def run(self):
+        if not self.data.has_been_inited():
+            raise Exception('Must init first')
+            
         entries = self.blipfoto.get_entries()
         urls = []
         for entry in entries:
